@@ -23,7 +23,7 @@ export interface ApiResponse<T> {
 }
 
 class ClassService {
-  private baseUrl = 'http://localhost:5001/api';
+  private baseUrl = 'http://localhost:3000/api';
 
   // Obtener el token de autenticación
   private getAuthHeaders(): HeadersInit {

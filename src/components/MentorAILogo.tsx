@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImage from '../../unnamed.webp';
+import logoImage from '/mentorai-logo.svg';
 
 export const MentorAILogo: React.FC = () => {
   return (

@@ -34,7 +34,7 @@ export class WhisperXService {
   private apiUrl: string;
   private apiKey?: string;
 
-  constructor(apiUrl: string = 'http://localhost:5001/api/whisperx', apiKey?: string) {
+  constructor(apiUrl: string = 'http://localhost:3000/api/whisperx', apiKey?: string) {
     this.apiUrl = apiUrl;
     this.apiKey = apiKey;
   }
